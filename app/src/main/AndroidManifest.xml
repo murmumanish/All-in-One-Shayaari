@@ -34,53 +34,13 @@
             android:windowSoftInputMode="stateHidden"
             tools:ignore="DiscouragedApi" />
         <activity
-            android:name=".AttitudeShayaariActivity"
+            android:name=".ShayaariListActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:hardwareAccelerated="true"
             android:supportsPictureInPicture="true"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden"
             tools:ignore="DiscouragedApi" />
-        <activity
-            android:name=".FunnyShayaariActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:hardwareAccelerated="true"
-            android:supportsPictureInPicture="true"
-            android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="stateHidden"
-            tools:ignore="DiscouragedApi" />
-        <activity
-            android:name=".RomanticShayaariActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:hardwareAccelerated="true"
-            android:supportsPictureInPicture="true"
-            android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="stateHidden"
-            tools:ignore="DiscouragedApi,Instantiatable" />
-        <activity
-            android:name=".LoveShayaariActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:hardwareAccelerated="true"
-            android:supportsPictureInPicture="true"
-            android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="stateHidden"
-            tools:ignore="DiscouragedApi,Instantiatable" />
-        <activity
-            android:name=".DostiShayaariActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:hardwareAccelerated="true"
-            android:supportsPictureInPicture="true"
-            android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="stateHidden"
-            tools:ignore="DiscouragedApi" />
-        <activity
-            android:name=".GirlsShayaariActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:hardwareAccelerated="true"
-            android:supportsPictureInPicture="true"
-            android:screenOrientation="fullSensor"
-            android:windowSoftInputMode="stateHidden"
-            tools:ignore="DiscouragedApi,Instantiatable" />
         <activity
             android:name=".ShowShayaariActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"

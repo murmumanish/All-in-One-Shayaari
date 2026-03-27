@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Set status bar color if supported
         //if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
-            Window w = getWindow();
-            w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-            w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            w.setStatusBarColor(0xFFFFCDD2);
+        Window w = getWindow();
+        w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        w.setStatusBarColor(0xFFFFCDD2);
         //}
 
         // Animate logo fade-in

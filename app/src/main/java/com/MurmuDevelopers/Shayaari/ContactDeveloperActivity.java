@@ -36,7 +36,7 @@ public class ContactDeveloperActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
         _toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View _v) {
+            public void onClick(View view) {
                 onBackPressed();
             }
         });
@@ -58,7 +58,7 @@ public class ContactDeveloperActivity extends AppCompatActivity {
 
         cardview1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View _view) {
+            public void onClick(View view) {
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("https://www.facebook.com/manish222261/"));
                 startActivity(intent);
@@ -67,7 +67,7 @@ public class ContactDeveloperActivity extends AppCompatActivity {
 
         cardview2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View _view) {
+            public void onClick(View view) {
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("https://www.instagram.com/manish222261"));
                 startActivity(intent);
@@ -76,7 +76,7 @@ public class ContactDeveloperActivity extends AppCompatActivity {
 
         cardview3.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View _view) {
+            public void onClick(View view) {
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("https://t.me/allinoneshayaariofficial"));
                 startActivity(intent);

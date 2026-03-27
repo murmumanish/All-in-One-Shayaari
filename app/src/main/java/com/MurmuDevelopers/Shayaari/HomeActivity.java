@@ -131,7 +131,10 @@ public class HomeActivity extends AppCompatActivity {
         cardview1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View _view) {
-                intent.setClass(HomeActivity.this, AttitudeShayaariActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShayaariListActivity.class);
+                intent.putExtra("json_file", "attitude.json");
+                intent.putExtra("title", "Attitude Shayari");
+                intent.putExtra("color", 0xFFEAC9E8);
                 startActivity(intent);
             }
         });
@@ -139,7 +142,10 @@ public class HomeActivity extends AppCompatActivity {
         cardview2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View _view) {
-                intent.setClass(HomeActivity.this, FunnyShayaariActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShayaariListActivity.class);
+                intent.putExtra("json_file", "funny.json");
+                intent.putExtra("title", "Funny Shayari");
+                intent.putExtra("color", 0xFFF0F1A5);
                 startActivity(intent);
             }
         });
@@ -147,7 +153,10 @@ public class HomeActivity extends AppCompatActivity {
         cardview3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View _view) {
-                intent.setClass(HomeActivity.this, RomanticShayaariActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShayaariListActivity.class);
+                intent.putExtra("json_file", "romantic.json");
+                intent.putExtra("title", "Romantic Shayari");
+                intent.putExtra("color", 0xFFC1A4F8);
                 startActivity(intent);
             }
         });
@@ -155,7 +164,10 @@ public class HomeActivity extends AppCompatActivity {
         cardview4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View _view) {
-                intent.setClass(HomeActivity.this, LoveShayaariActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShayaariListActivity.class);
+                intent.putExtra("json_file", "love.json");
+                intent.putExtra("title", "Love Shayari");
+                intent.putExtra("color", 0xFFEDC0D2);
                 startActivity(intent);
             }
         });
@@ -163,7 +175,10 @@ public class HomeActivity extends AppCompatActivity {
         cardview5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View _view) {
-                intent.setClass(HomeActivity.this, DostiShayaariActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShayaariListActivity.class);
+                intent.putExtra("json_file", "dosti.json");
+                intent.putExtra("title", "Dosti Shayari");
+                intent.putExtra("color", 0xFFB6FAA5);
                 startActivity(intent);
             }
         });
@@ -171,7 +186,10 @@ public class HomeActivity extends AppCompatActivity {
         cardview6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View _view) {
-                intent.setClass(HomeActivity.this, GirlsShayaariActivity.class);
+                Intent intent = new Intent(HomeActivity.this, ShayaariListActivity.class);
+                intent.putExtra("json_file", "girls.json");
+                intent.putExtra("title", "Girls Shayari");
+                intent.putExtra("color", 0xFF43CBFF);
                 startActivity(intent);
             }
         });

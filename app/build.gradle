@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace 'com.MurmuDevelopers.Shayaari'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.MurmuDevelopers.Shayaari"
         minSdk 24
-        targetSdk 34
+        targetSdk 36
         versionCode 4
-        versionName "4.1"
+        versionName "4.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
