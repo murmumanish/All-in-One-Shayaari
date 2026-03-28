@@ -4,13 +4,12 @@ import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,19 +24,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main);
 
         // Initialize views
-        LinearLayout background = findViewById(R.id.Background);
-        LinearLayout linear_Background = findViewById(R.id.Linear_Background);
-        LinearLayout linear_Bottom = findViewById(R.id.Linear_Bottom);
+
         ImageView app_Logo = findViewById(R.id.App_Logo);
-        TextView app_Version = findViewById(R.id.App_Version);
+
 
         // Set status bar color if supported
-        //if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
+
         Window w = getWindow();
         w.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         w.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         w.setStatusBarColor(0xFFFFCDD2);
-        //}
+
+        // Optional: make status bar icons dark for better contrast
+        w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
         // Animate logo fade-in
         ObjectAnimator animator = ObjectAnimator.ofFloat(app_Logo, "alpha", 0f, 1f);
