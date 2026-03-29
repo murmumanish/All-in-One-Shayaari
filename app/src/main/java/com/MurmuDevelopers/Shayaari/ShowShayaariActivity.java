@@ -38,7 +38,7 @@ public class ShowShayaariActivity extends AppCompatActivity {
         cardView = findViewById(R.id.cardview1);
         copyBtn = findViewById(R.id.copy_btn);
         shareBtn = findViewById(R.id.share_btn);
-        toolbar = findViewById(R.id._toolbar);
+        toolbar = findViewById(R.id.toolbar);
     }
 
     private void setupToolbar() {

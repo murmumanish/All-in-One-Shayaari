@@ -57,3 +57,7 @@ navigation.json
 .kotlinc/
 *.class
 
+
+app/release/
+
+
